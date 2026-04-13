@@ -33,7 +33,7 @@ class RateLimiter:
         self.user_history[user_id] = user_times
         return user_times
     
-print("salom")
+print("salomm")
 @app.post("/calculate")
 async def calculate_delivery(order: OrderRequest, x_user_id: str = Header(default=None)):
     if not x_user_id:
