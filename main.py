@@ -4,7 +4,7 @@ from fastapi import FastAPI, Header, HTTPException
 from pydantic import BaseModel
 
 app = FastAPI(title="Smart Calculator - Stage 1")
-
+print('tttttt')
 FAKE_DB = {
     "user_123": "gold",
     "user_456": "silver",
