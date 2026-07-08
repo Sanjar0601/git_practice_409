@@ -2,7 +2,7 @@ from datetime import time
 
 from fastapi import FastAPI, Header, HTTPException
 from pydantic import BaseModel
-
+print('hello worl')
 app = FastAPI(title="Smart Calculator - Stage 1")
 
 FAKE_DB = {
